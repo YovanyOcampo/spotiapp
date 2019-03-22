@@ -16,7 +16,7 @@ export class TarjetasComponent implements OnInit {
   }
 
   verArtista(item: any) {
-    let artistaId;
+    let artistaId: any;
     if(item.type === "artist") {
       artistaId = item.id;
     } else if (item.type === "album") {

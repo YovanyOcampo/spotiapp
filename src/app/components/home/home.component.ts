@@ -13,7 +13,7 @@ export class HomeComponent {
     this.loading = true;
     this.spotify.getNewReleases().subscribe((data: any)=> {
       this.nuevasCanciones = data;
-      console.log(this.nuevasCanciones);
+      // console.log(this.nuevasCanciones);
       this.loading = false;
     });
   }
